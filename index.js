@@ -1,6 +1,4 @@
-function drivers(){
-  
-}
+drivers = ["Milo", "Otis", "Garfield"];
 
 describe('index.js', function () {
   describe('drivers', function () {
