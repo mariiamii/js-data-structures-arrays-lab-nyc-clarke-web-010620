@@ -17,7 +17,7 @@ function destructivelyRemoveFirstDriver(){
 }
 
 function appendDriver(name){
-  drivers...name
+  return [...name, drivers];
 }
 
 function prependDriver(name){
