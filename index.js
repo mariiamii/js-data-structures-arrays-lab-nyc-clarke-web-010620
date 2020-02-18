@@ -4,25 +4,25 @@ function destructivelyAppendDriver(name){
   drivers.push(name);
 }
 
-function destructivelyPrependDriver(name){
-  drivers.unshift(name);
-}
+// function destructivelyPrependDriver(name){
+//   drivers.unshift(name);
+// }
 
-function destructivelyRemoveLastDriver(){
-  drivers.pop();
-}
+// function destructivelyRemoveLastDriver(){
+//   drivers.pop();
+// }
 
-function destructivelyRemoveFirstDriver(){
-  drivers.shift();
-}
+// function destructivelyRemoveFirstDriver(){
+//   drivers.shift();
+// }
 
-function appendDriver(name){
-  return [drivers, ...name];
-}
+// function appendDriver(name){
+//   return [drivers, ...name];
+// }
 
-function prependDriver(name){
-  return [...name, drivers];
-}
+// function prependDriver(name){
+//   return [...name, drivers];
+// }
 
 // function removeLastDriver(){
 //   return drivers.slice(-1);
